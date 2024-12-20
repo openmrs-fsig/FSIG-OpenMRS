@@ -1,0 +1,7 @@
+[Unit]
+Description=MySQL Backup Job
+
+[Service]
+Type=simple
+Restart=no
+ExecStart=/usr/local/bin/mysqlbackup.sh

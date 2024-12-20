@@ -1,0 +1,10 @@
+[Unit]
+Description=MySQL Backup Timer
+
+[Timer]
+OnCalendar=Mon..Sun *-*-* 05:00:00
+Persistent=true
+Unit=mysqlbackup.service
+
+[Install]
+WantedBy=multi-user.target

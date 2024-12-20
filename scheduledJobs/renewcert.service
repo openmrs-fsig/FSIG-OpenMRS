@@ -1,0 +1,7 @@
+[Unit]
+Description=Renew Certbot Certificate Job
+
+[Service]
+Type=simple
+Restart=no
+ExecStart=/usr/local/bin/renewcert.sh
