@@ -2,7 +2,7 @@
 
 # Dashboard access and setup
 
-To access our AWS account, go to [Amazon AWS](https://us-east-2.signin.aws.amazon.com/) and use the root user credentials. These can be found in our google drive in the Technical Passwords document. Logging in will prompt you to complete 2-factor authentication, log into the Funsalud gmail account to do so. Now that you have access to the AWS dashboard, you can follow along this guide to check out the services we use to support OpenMRS. 
+To access our AWS account, go to [Amazon AWS](https://us-east-2.signin.aws.amazon.com/) and use the root user credentials. These can be found in our google drive in the Technical Passwords document. Now that you have access to the AWS dashboard, you can follow along this guide to check out the services we use to support OpenMRS. 
 
 All of our services are active in the Ohio `us-east-2` AWS region. When logged in, you can verify you are in the correct region by clicking the dropdown in the upper right corner and selecting the Ohio us-east-2 region.
 
