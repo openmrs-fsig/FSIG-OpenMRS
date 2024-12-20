@@ -32,4 +32,4 @@ After running through these steps, restart tomcat
 sudo systemctl restart tomcat
 ```
 
-Now you should see the OpenMRS installation wizard when you go to the openmrs page(ex: https://sandbox.fsig-mrs.com/openmrs). If you are setting up a fresh instance of OpenMRS, you can go through these installation prompts however you’d like. If you are trying to restore OpenMRS data from a backup, follow the instructions <LINK>
+Now you should see the OpenMRS installation wizard when you go to the openmrs page(ex: https://sandbox.fsig-mrs.com/openmrs). If you are setting up a fresh instance of OpenMRS, you can go through these installation prompts however you’d like. If you are trying to restore OpenMRS data from a backup, follow the instructions [restore from a database backup](Restoring%20from%20a%20database%20backup%2015a937b9044780298f36d93b32c88d12.md)

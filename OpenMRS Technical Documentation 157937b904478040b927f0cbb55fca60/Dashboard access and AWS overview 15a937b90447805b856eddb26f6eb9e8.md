@@ -2,7 +2,7 @@
 
 # Dashboard access and setup
 
-To access our AWS account, go to <LOGIN LINK> and use the following credentials: <root user creds>. Logging in will prompt you to complete 2-factor authentication, log into the Funsalud gmail account to do so. Now that you have access to the AWS dashboard, you can follow along this guide to check out the services we use to support OpenMRS. 
+To access our AWS account, go to [Amazon AWS](https://us-east-2.signin.aws.amazon.com/) and use the root user credentials. These can be found in our google drive in the Technical Passwords document. Logging in will prompt you to complete 2-factor authentication, log into the Funsalud gmail account to do so. Now that you have access to the AWS dashboard, you can follow along this guide to check out the services we use to support OpenMRS. 
 
 All of our services are active in the Ohio `us-east-2` AWS region. When logged in, you can verify you are in the correct region by clicking the dropdown in the upper right corner and selecting the Ohio us-east-2 region.
 
@@ -12,7 +12,7 @@ All of our services are active in the Ohio `us-east-2` AWS region. When logged i
 
 Our application runs on Amazon EC2. An EC2 instance is essentially just a server that we rent from Amazon. Type EC2 into the navigation bar to access the EC2 management page. This page shows the list of running instances as well as any stopped instances that have not yet been terminated. Clicking the instance ID will bring up a page that shows more details about that particular instance such as its IP address, hostname, instance type, networking, security and storage information.
 
-For more information on deploying, accessing, and managing an EC2 instance please see Instance Deployment and Access page. 
+For more information on deploying, accessing, and managing an EC2 instance please see the [Instance Access page](EC2%20instance%20access%20and%20file%20retrieval%2015a937b904478007b12ce66c4686cc57.md) 
 
 # AMIs
 
@@ -30,7 +30,7 @@ If you make a big change to the system and want to capture the state of the serv
 
 ## Launching an instance from an AMI
 
-From the EC2 page, select Launch Instance. In the Application and OS Images section, select `My AMIs` and click on the AMI dropdown to select the AMI you’d like to use. For more information on launching instances, see the Instance Access and Deployment page.
+From the EC2 page, select Launch Instance. In the Application and OS Images section, select `My AMIs` and click on the AMI dropdown to select the AMI you’d like to use. For more information on launching instances, see the [Launch EC2 Instance page](Launch%20EC2%20instance%20161937b9044780f28f56e79f5997f105.md)
 
 # Route 53
 

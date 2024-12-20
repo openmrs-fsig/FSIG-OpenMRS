@@ -25,4 +25,4 @@ sudo vi catalina.out
 
 # Copy logs to local machine
 
-If you want to take a closer look at the logs you can copy them down to your local machine. This allows you to open the log file in your favorite text editor and search for specific strings or patterns. Instructions for copying logs to your local computer are in the EC2 Instance Access and File Retrieval page
+If you want to take a closer look at the logs you can copy them down to your local machine. This allows you to open the log file in your favorite text editor and search for specific strings or patterns. Instructions for copying logs to your local computer are in the [EC2 Instance Access and File Retrieval page](EC2%20instance%20access%20and%20file%20retrieval%2015a937b904478007b12ce66c4686cc57.md)

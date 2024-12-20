@@ -1,6 +1,6 @@
 # Custom Patient Registration
 
-Our instance of OpenMRS is using a custom version of the patient registration application. This allows us to add custom fields to the registration process, such as DPI and Entitad. This was set up following the instructions for [Registration App Configuration](https://openmrs.atlassian.net/wiki/spaces/docs/pages/25470818/Registration+App+Configuration). The file containing our custom app definition is saved here in our github. 
+Our instance of OpenMRS is using a custom version of the patient registration application. This allows us to add custom fields to the registration process, such as DPI and Entitad. This was set up following the instructions for [Registration App Configuration](https://openmrs.atlassian.net/wiki/spaces/docs/pages/25470818/Registration+App+Configuration). The file containing our custom app definition is saved [here](customRegistrationApp/registrationappCustomProduction.json)
 
 To add a new field to the custom registration, you would first need to create the new field.
 
