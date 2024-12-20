@@ -1,13 +1,5 @@
 # OpenMRS Technical Documentation
 
-# Credentials
-
-need to figure out how to store/share these
-
-store some in funsalud google account(seems to need link, so only good for aws, github, etc accounts)
-
-encrypt the server passwords in a vaulted file
-
 # AWS
 
 Our instance of OpenMRS runs on the AWS cloud. See this section for instructions on accessing the AWS portal, an overview of the services we utilize in AWS, how to deploy and access an instance and the difference between our sandbox and production environments. 
@@ -57,3 +49,8 @@ If an issue arises that is not covered in the below documents, please open a sup
 [System Maintenance](OpenMRS%20Technical%20Documentation%20157937b904478040b927f0cbb55fca60/System%20Maintenance%2015a937b90447807ba127fe5abc673d7b.md)
 
 [Common Issues](OpenMRS%20Technical%20Documentation%20157937b904478040b927f0cbb55fca60/Common%20Issues%20161937b904478035a2e9f24d36a166ba.md)
+
+
+# Credentials
+
+The credentials needed to access various systems as well as user account credentials on the server can be found in our google drive under the Technical Passwords file. 
