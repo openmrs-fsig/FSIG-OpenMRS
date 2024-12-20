@@ -10,7 +10,7 @@ SSH to the server and create the database backup script file:
 sudo vi /usr/local/bin/mysqlbackup.sh
 ```
 
-Copy the contents of the [`mysqlbackup.sh`](http://mysqlbackup.sh) script, making sure to substitute the actual database password where you see the <PASSWORD> placeholder. Paste the contents into the file on the server and save it. 
+Copy the contents of the `mysqlbackup.sh script` found in the scheduledJobs folder, making sure to substitute the actual database password where you see the <PASSWORD> placeholder. Paste the contents into the file on the server and save it. 
 
 Update the file permissions and test the script
 
